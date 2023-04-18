@@ -6,7 +6,7 @@
 
 ### You can use a package manage which you like. I've used yarn package manager to build up my application.
 
-> json-server: 4323
+> json-server: 4323 <br>
 > localhost: 3000
 
 ```
