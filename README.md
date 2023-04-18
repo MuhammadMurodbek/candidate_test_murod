@@ -10,6 +10,7 @@
 > localhost: 3000
 
 ```
- `npm install`
- `npm run dev`
+ `yarn install`
+ `yarn server`
+ `yarn dev`
 ```
