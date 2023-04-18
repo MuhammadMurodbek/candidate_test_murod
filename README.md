@@ -1,20 +1,15 @@
-# DnD Kanban Board
-### A modern drag and droppable kanban board. <br>
-Build tutorial available on [Youtube](https://www.youtube.com/watch?v=9MKFnOKmihE)
+# Kanban Board
 
+### A modern drag and droppable kanban board that was implemented with new features (CRUD). <br> User can easily work with full-screen calendar, as well as manage upcoming events. In this project I've used json-server as a database regarding to requirements.
 
-![preview](https://user-images.githubusercontent.com/16454253/187617291-a1ef81d1-9149-43bb-a6f4-5056cd602236.png)
+# Installation
 
+### You can use a package manage which you like. I've used yarn package manager to build up my application.
 
+> json-server: 4323
+> localhost: 3000
 
-## Launching the app
-
-Development:
-1. `npm install`
-2. `npm run dev`
-
-
-Production:
-1. `npm install`
-2. `npm run build`
-3. `npm run start`
+```
+ `npm install`
+ `npm run dev`
+```
