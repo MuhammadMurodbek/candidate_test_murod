@@ -15,13 +15,7 @@ type TaskProps = {
   onUpdate: (id: TaskModel['id'], updatedTask: TaskModel) => void;
   onDelete: (id: TaskModel['id']) => void;
   onDropHover: (i: number, j: number) => void;
-  updatedTasks: ({
-    id,
-    payload,
-  }: {
-    id: number | string;
-    payload: any;
-  }) => Promise<AxiosResponse<any, any>>;
+  updatedTasks: any;
 };
 
 function Task({

@@ -22,7 +22,7 @@ const ColumnColorScheme: Record<ColumnType, string> = {
   completed: 'green',
 };
 
-function Column({ column }: { column: ColumnType }) {
+export function Column({ column }: { column: ColumnType }) {
   const disclosure = useTodoModalDisclosure();
   const {
     tasks,
@@ -93,5 +93,3 @@ function Column({ column }: { column: ColumnType }) {
     </Box>
   );
 }
-
-export default Column;

@@ -4,7 +4,7 @@ import { HTML5Backend } from 'react-dnd-html5-backend';
 import DarkModeIconButton from './components/dark.mode/dark.mode.icon.button';
 import { ColumnType } from './utils/enums';
 import { ModalCalendar } from './components/calendar';
-import Column from './components/column/Column';
+import { Column } from './components/column';
 
 function App() {
   return (
